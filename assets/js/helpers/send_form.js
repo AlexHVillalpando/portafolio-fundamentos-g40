@@ -22,7 +22,7 @@ function sendEmail() {
 
 		if (params.name && params.email && params.subject && params.message) {
 			emailjs
-				.send('AQUÍ VA TU SERVICEID', 'AQUI VA TU TEMPLATE ID', params)
+				.send('service_e2uhm1v', 'template_4lhdmca', params)
 				.then(openModal());
 		}
 	});
